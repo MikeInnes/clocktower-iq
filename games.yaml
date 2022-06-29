@@ -1,0 +1,285 @@
+- storyteller: Lizard
+  edition: trouble-brewing
+  good:
+    - Monkey
+    - Shrew
+    - Cow
+    - Bee
+    - Mouse
+  evil:
+    - Bear
+    - Kangaroo
+  winner: evil
+
+- storyteller: Monkey
+  edition: trouble-brewing
+  good:
+    - Lizard
+    - Shrew
+    - Bee
+    - Mouse
+    - Bear
+  evil:
+    - Kangaroo
+    - Cow
+  winner: evil
+
+- storyteller: Lizard
+  edition: trouble-brewing
+  good:
+    - Shrew
+    - Bee
+    - Mouse
+    - Bear
+    - Kangaroo
+  evil:
+    - Monkey
+    - Cow
+  winner: evil
+
+- storyteller: Bee
+  edition: trouble-brewing
+  good:
+    - Mouse
+    - Bear
+    - Kangaroo
+    - Monkey
+    - Cow
+  evil:
+    - Lizard
+    - Shrew
+  winner: evil
+
+- storyteller: Bee
+  edition: trouble-brewing
+  good:
+    - Elephant
+    - Deer
+    - Lizard
+  evil:
+    - Cheetah
+    - Owl
+  winner: good
+
+- storyteller: Bee
+  edition: trouble-brewing
+  good:
+    - Lizard
+    - Cheetah
+    - Deer
+    - Louise
+  evil:
+    - Elephant
+    - Owl
+  winner: evil
+
+- storyteller: Bee
+  edition: trouble-brewing
+  good:
+    - Bee
+    - Cheetah
+    - Deer
+  evil:
+    - Lizard
+    - Louise
+  winner: evil
+
+- storyteller: Lizard
+  edition: trouble-brewing
+  good:
+    - Elephant
+    - Deer
+    - Cheetah
+  evil:
+    - Bee
+    - Owl
+  winner: evil
+
+- storyteller: Lizard
+  edition: trouble-brewing
+  good:
+    - Bee
+    - Monkey
+    - Shrew
+  evil:
+    - Cow
+    - Mouse
+  winner: good
+
+- storyteller: Monkey
+  edition: trouble-brewing
+  good:
+    - Lizard
+    - Bee
+    - Shrew
+  evil:
+    - Cow
+    - Mouse
+  winner: good
+
+- storyteller: Bee
+  edition: trouble-brewing
+  good:
+    - Mouse
+    - Shrew
+    - Cow
+  evil:
+    - Lizard
+    - Monkey
+  winner: evil
+
+- storyteller: Cow
+  edition: trouble-brewing
+  good:
+    - Bee
+    - Lizard
+    - Shrew
+  evil:
+    - Monkey
+    - Mouse
+  winner: good
+
+- storyteller: Cow
+  edition: trouble-brewing
+  good:
+    - Bee
+    - Monkey
+    - Shrew
+  evil:
+    - Lizard
+    - Mouse
+  winner: evil
+
+- storyteller: Shrew
+  edition: trouble-brewing
+  good:
+    - Kurosh
+    - Cow
+    - Monkey
+    - Lizard
+  evil:
+    - Bee
+    - Mouse
+  winner: evil
+
+- storyteller: Shrew
+  edition: trouble-brewing
+  good:
+    - Kurosh
+    - Cow
+    - Monkey
+    - Lizard
+  evil:
+    - Bee
+    - Mouse
+  winner: evil
+
+- storyteller: Lizard
+  edition: trouble-brewing
+  good:
+    - Mouse
+    - Monkey
+    - Buzzard
+  evil:
+    - Shrimp
+    - Bee
+  winner: evil
+
+- storyteller: Lizard
+  edition: trouble-brewing
+  good:
+    - Mouse
+    - Monkey
+    - Shrimp
+    - Cow
+  evil:
+    - Buzzard
+    - Bee
+  winner: good
+
+- storyteller: Bee
+  edition: trouble-brewing
+  good:
+    - Elk
+    - Sheep
+    - Monkey
+    - Cow
+  evil:
+    - Lizard
+    - Mouse
+  winner: good
+
+- storyteller: Lizard
+  edition: trouble-brewing
+  good:
+    - Mole
+    - Lemur
+    - Kangaroo
+    - Cow
+  evil:
+    - Bee
+    - Mouse
+  winner: evil
+
+- storyteller: Bee
+  edition: trouble-brewing
+  good:
+    - Mole
+    - Mouse
+    - Kangaroo
+    - Cow
+  evil:
+    - Lizard
+    - Lemur
+  winner: evil
+
+- storyteller: Cow
+  edition: trouble-brewing
+  good:
+    - Mole
+    - Lemur
+    - Lizard
+    - Mouse
+  evil:
+    - Bee
+    - Kangaroo
+  winner: evil
+
+- storyteller: Lizard
+  edition: trouble-brewing
+  good:
+    - Mole
+    - Monkey
+    - Bee
+    - Kangaroo
+    - Giraffe
+  evil:
+    - Mouse
+    - Lemur
+  winner: good
+
+- storyteller: Bee
+  edition: trouble-brewing
+  good:
+    - Mole
+    - Lizard
+    - Giraffe
+    - Mouse
+    - Lemur
+  evil:
+    - Kangaroo
+    - Monkey
+  winner: good
+
+- storyteller: Bee
+  edition: trouble-brewing
+  good:
+    - Mole
+    - Lizard
+    - Mouse
+    - Lemur
+    - Kangaroo
+  evil:
+    - Giraffe
+    - Monkey
+  winner: evil
