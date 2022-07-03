@@ -93,11 +93,11 @@ namespace ep
                 // prediction[game] = diff > 0;
                 // outcome[game] = diff > 0;
                 // Logit
-                // prediction[game] = Variable.Bernoulli(Variable.Logistic((diff + bias) * factor[game]));
-                // outcome[game] = Variable.Bernoulli(Variable.Logistic((diff + bias) * factor[game]));
+                // prediction[game] = Variable.Bernoulli(Variable.Logistic(diff + bias));
+                // outcome[game] = Variable.Bernoulli(Variable.Logistic(diff + bias));
                 // Probit
-                prediction[game] = Variable.GaussianFromMeanAndVariance((diff + bias) * factor[game], 3.23) > 0;
-                outcome[game] = Variable.GaussianFromMeanAndVariance((diff + bias) * factor[game], 3.23) > 0;
+                prediction[game] = Variable.GaussianFromMeanAndVariance(diff + bias, 3.23) > 0;
+                outcome[game] = Variable.GaussianFromMeanAndVariance(diff + bias, 3.23) > 0;
             }
 
             var iqs = Variable.Array<double>(player);
@@ -146,7 +146,7 @@ namespace ep
             // Console.WriteLine("Scale: {0}", Math.Sqrt(engine.Infer<Gamma>(scale).GetMean()));
             Console.WriteLine("Bias: {0}", engine.Infer<Gaussian>(bias));
             Console.WriteLine();
-            foreach (var (name, skill) in players.Zip(engine.Infer<Gaussian[]>(iqs)).OrderBy(x => -x.Second.GetMean())) {
+            foreach (var (name, skill) in players.Zip(engine.Infer<Gaussian[]>(iqs)).OrderBy(x => -(x.Second.GetMean() - 2*Math.Sqrt(x.Second.GetVariance())))) {
                 Console.WriteLine("{0}: {1} ± {2}", name, Math.Round(skill.GetMean(), 1), Math.Round(Math.Sqrt(skill.GetVariance()), 1));
             }
         }
